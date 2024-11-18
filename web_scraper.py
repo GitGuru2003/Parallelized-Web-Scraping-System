@@ -1,4 +1,5 @@
 import requests
+import time
 from bs4 import BeautifulSoup
 from parsl.app.app import python_app
 from database import store_data_in_db
@@ -54,6 +55,27 @@ if __name__ == "__main__":
     load_parsl_config()
 
     # Website List
-    urls = ["www.google.com", "www.example.com", "www.wikipedia.org", "www.github.com"]
+    urls = [
+        "https://www.google.com",
+        "https://www.example.com",
+        "https://www.wikipedia.org",
+        "https://www.github.com",
+        "https://stackoverflow.com",
+        "https://www.python.org",
+        "https://www.bbc.com/news",
+        "https://www.nytimes.com",
+        "https://techcrunch.com",
+        "https://www.cnn.com",
+        "https://www.theverge.com",
+        "https://www.nasa.gov",
+        "https://developer.mozilla.org",
+        "https://www.nationalgeographic.com",
+        "https://www.theguardian.com/international",
+        "https://www.reuters.com",
+        "https://www.bloomberg.com",
+        "https://www.youtube.com",
+        "https://www.amazon.com",
+        "https://www.ebay.com",
+    ]
 
     multiple_url_scraper(urls)  # Calling the function with the list of URLs

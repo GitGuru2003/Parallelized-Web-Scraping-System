@@ -1,0 +1,2010 @@
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: 0a360bce-9c00-4a01-a0e9-6022eb18f8b1
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x102ab1430 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x103c93da0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x100d7c980 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x103d18bc0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: 45c26aee-bc43-4419-9e18-4e136436de88
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x10dfcde80 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x10dfce240 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x10dfcea80 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x10dfcf200 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x10dfcfaa0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: be9a5db0-ac3e-4711-b620-f1929069839c
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x10a0e3f50 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x10a1183e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x109e8ff80 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x10a1191f0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x10a119a90 state=pending>
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 5 will be sent to executor threads
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 5 set to pending state with AppFuture: <AppFuture at 0x10a11b920 state=pending>
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 6 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 5 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 5 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 6 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 6 set to pending state with AppFuture: <AppFuture at 0x10a11bf50 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 7 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 6 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 6 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 7 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 7 set to pending state with AppFuture: <AppFuture at 0x10a11c590 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 8 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 7 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 7 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 8 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 8 set to pending state with AppFuture: <AppFuture at 0x10a11c770 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 9 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 8 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 8 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 9 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 9 set to pending state with AppFuture: <AppFuture at 0x10a11c950 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 10 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 9 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 9 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 10 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 10 set to pending state with AppFuture: <AppFuture at 0x10a11cb30 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 11 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.memoization:Task 10 will not be memoized
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 10 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 11 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 11 set to pending state with AppFuture: <AppFuture at 0x10a11cd10 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 12 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 11 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 11 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 12 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 12 set to pending state with AppFuture: <AppFuture at 0x10a11a5a0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 13 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 12 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 12 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 13 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 13 set to pending state with AppFuture: <AppFuture at 0x10a11d040 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 14 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 13 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 13 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 14 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 14 set to pending state with AppFuture: <AppFuture at 0x10a11d250 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 15 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 14 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 14 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 15 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 15 set to pending state with AppFuture: <AppFuture at 0x10a11d460 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 16 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 15 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 15 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 16 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 16 set to pending state with AppFuture: <AppFuture at 0x10a11d670 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 17 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 16 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 16 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 17 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 17 set to pending state with AppFuture: <AppFuture at 0x10a11d880 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 18 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 17 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 17 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 18 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 18 set to pending state with AppFuture: <AppFuture at 0x10a11da90 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 19 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 18 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 18 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 19 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 19 set to pending state with AppFuture: <AppFuture at 0x10a11dca0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 19 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 19 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Task 7 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 9 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 10 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+DEBUG:parsl.app.errors:Reraising exception of type <class 'NameError'>
+INFO:parsl.dataflow.dflow:Task 11 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Task 15 try 0 failed with exception of type NameError
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+ERROR:parsl.dataflow.dflow:Task 15 failed after 0 retry attempts
+Traceback (most recent call last):
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 25, in scraper
+    response.raise_for_status()  # Check if the request was successful
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py", line 344, in handle_exec_update
+    res = self._unwrap_remote_exception_wrapper(future)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py", line 614, in _unwrap_remote_exception_wrapper
+    result.reraise()
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/app/errors.py", line 117, in reraise
+    raise v
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/app/errors.py", line 141, in wrapper
+    return func(*args, **kwargs)
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 41, in parallel_parsl_scrape
+    return scraper(url)
+      ^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 31, in scraper
+    time.sleep(2**i)  # Exponential backoff for retries
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 14 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 12 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 13 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+DEBUG:parsl.app.errors:Reraising exception of type <class 'NameError'>
+INFO:parsl.dataflow.dflow:Task 18 try 0 failed with exception of type NameError
+ERROR:parsl.dataflow.dflow:Task 18 failed after 0 retry attempts
+Traceback (most recent call last):
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 25, in scraper
+    response.raise_for_status()  # Check if the request was successful
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py", line 344, in handle_exec_update
+    res = self._unwrap_remote_exception_wrapper(future)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py", line 614, in _unwrap_remote_exception_wrapper
+    result.reraise()
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/app/errors.py", line 117, in reraise
+    raise v
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/app/errors.py", line 141, in wrapper
+    return func(*args, **kwargs)
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 41, in parallel_parsl_scrape
+    return scraper(url)
+      ^^^^^^^^^^^^^^^^^
+  File "/Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/web_scraper.py", line 31, in scraper
+    time.sleep(2**i)  # Exponential backoff for retries
+    ^^^^^^^^^^^^^^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 16 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 17 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 19 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: 697bb3f5-90e8-4e5b-87eb-051f5e9a8c44
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x10920fb30 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x10920ff50 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x109284740 state=pending>
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x109285ca0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x109284ce0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 5 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 5 set to pending state with AppFuture: <AppFuture at 0x1092854c0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 6 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 5 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 5 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 6 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 6 set to pending state with AppFuture: <AppFuture at 0x1092868d0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 7 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 6 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 6 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 7 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 7 set to pending state with AppFuture: <AppFuture at 0x1092a01a0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 8 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.memoization:Task 7 will not be memoized
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 7 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 8 set to pending state with AppFuture: <AppFuture at 0x1092a0380 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 9 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 8 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 8 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 9 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 9 set to pending state with AppFuture: <AppFuture at 0x1092a0200 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 10 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 9 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 9 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 10 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 10 set to pending state with AppFuture: <AppFuture at 0x1092a0740 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 11 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 10 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 10 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 11 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 11 set to pending state with AppFuture: <AppFuture at 0x1092a0920 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 12 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 11 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 11 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 12 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 12 set to pending state with AppFuture: <AppFuture at 0x1092a00e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 13 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 12 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 12 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 13 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 13 set to pending state with AppFuture: <AppFuture at 0x1092a0b60 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 14 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 13 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 13 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 14 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 14 set to pending state with AppFuture: <AppFuture at 0x1092a0e60 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 15 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 14 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 14 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 15 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 15 set to pending state with AppFuture: <AppFuture at 0x1092a1070 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 16 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 15 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 15 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 16 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 16 set to pending state with AppFuture: <AppFuture at 0x1092a1280 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 17 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 16 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 16 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 17 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 17 set to pending state with AppFuture: <AppFuture at 0x1092a1490 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 18 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 17 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 17 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 18 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 18 set to pending state with AppFuture: <AppFuture at 0x1092a16a0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 19 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 18 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 18 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 19 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 19 set to pending state with AppFuture: <AppFuture at 0x1092a18b0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 19 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 19 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 7 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 10 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 9 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 11 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 13 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 12 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+INFO:parsl.dataflow.dflow:Task 14 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 17 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+INFO:parsl.dataflow.dflow:Task 16 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 19 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+ERROR:root:Attempt 2 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 2 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+ERROR:root:Attempt 3 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 3 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+DEBUG:parsl.jobs.strategy:general strategy starting with strategy_type simple for 0 executors
+DEBUG:parsl.process_loggers:Normal ending for _general_strategy on thread JobStatusPoller-Timer-Thread-4448122880
+ERROR:root:Failed after 3 retries for https://www.reuters.com
+INFO:parsl.dataflow.dflow:Task 15 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+ERROR:root:Failed after 3 retries for https://www.amazon.com
+INFO:parsl.dataflow.dflow:Task 18 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: 97c3dd90-b250-427f-b826-837b032617e0
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x107e7f8c0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x107e7fd10 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x107f044d0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x107f04b60 state=pending>
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x107f06630 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 5 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 5 set to pending state with AppFuture: <AppFuture at 0x107f04bc0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 6 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 5 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 5 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 6 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 6 set to pending state with AppFuture: <AppFuture at 0x107f061e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 7 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 6 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 6 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 7 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 7 set to pending state with AppFuture: <AppFuture at 0x107f07290 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 8 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 7 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 7 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 8 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 8 set to pending state with AppFuture: <AppFuture at 0x107ef8110 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 9 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 8 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 8 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 9 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 9 set to pending state with AppFuture: <AppFuture at 0x107ef82f0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 10 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 9 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 9 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 10 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 10 set to pending state with AppFuture: <AppFuture at 0x107ef84d0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 11 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 10 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 10 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 11 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 11 set to pending state with AppFuture: <AppFuture at 0x107ef86b0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 12 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 11 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 11 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 12 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 12 set to pending state with AppFuture: <AppFuture at 0x107ef8890 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 13 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 12 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 12 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 13 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 13 set to pending state with AppFuture: <AppFuture at 0x107ef8a40 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 14 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 13 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 13 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 14 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 14 set to pending state with AppFuture: <AppFuture at 0x107ef8c50 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 15 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 14 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 14 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 15 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 15 set to pending state with AppFuture: <AppFuture at 0x107ef8e60 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 16 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 15 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 15 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 16 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 16 set to pending state with AppFuture: <AppFuture at 0x107ef9070 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 17 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 16 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 16 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 17 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 17 set to pending state with AppFuture: <AppFuture at 0x107ef9280 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 18 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 17 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 17 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 18 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 18 set to pending state with AppFuture: <AppFuture at 0x107ef9490 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 19 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 18 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 18 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 19 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 19 set to pending state with AppFuture: <AppFuture at 0x107ef96a0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 19 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 19 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 7 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 9 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 11 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 10 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 12 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 13 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+INFO:parsl.dataflow.dflow:Task 14 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 17 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+INFO:parsl.dataflow.dflow:Task 16 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 19 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+ERROR:root:Attempt 2 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 2 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+ERROR:root:Attempt 3 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 3 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+DEBUG:parsl.jobs.strategy:general strategy starting with strategy_type simple for 0 executors
+DEBUG:parsl.process_loggers:Normal ending for _general_strategy on thread JobStatusPoller-Timer-Thread-4426081264
+ERROR:root:Failed after 3 retries for https://www.reuters.com
+INFO:parsl.dataflow.dflow:Task 15 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+ERROR:root:Failed after 3 retries for https://www.amazon.com
+INFO:parsl.dataflow.dflow:Task 18 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: 20500bfc-b638-4f0d-bc03-697ce8191d27
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x10793c5c0 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x1079a3fb0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x1079f0680 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x1079f0920 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x1079f1d90 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 5 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 5 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 5 set to pending state with AppFuture: <AppFuture at 0x1079f2990 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 6 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 5 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 5 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 6 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 6 set to pending state with AppFuture: <AppFuture at 0x1079f35c0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 7 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 6 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 6 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 7 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 7 set to pending state with AppFuture: <AppFuture at 0x107a10200 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 8 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 7 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 7 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 8 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 8 set to pending state with AppFuture: <AppFuture at 0x107a103e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 9 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 8 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 8 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 9 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 9 set to pending state with AppFuture: <AppFuture at 0x107a105c0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 10 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 9 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 9 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 10 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 10 set to pending state with AppFuture: <AppFuture at 0x107a10770 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 11 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 10 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 10 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 11 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 11 set to pending state with AppFuture: <AppFuture at 0x107a10950 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 12 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 11 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 11 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 12 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 12 set to pending state with AppFuture: <AppFuture at 0x107a10b30 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 13 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 12 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 12 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 13 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 13 set to pending state with AppFuture: <AppFuture at 0x107a10ce0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 14 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 13 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 13 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 14 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 14 set to pending state with AppFuture: <AppFuture at 0x107a10ef0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 15 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 14 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 14 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 15 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 15 set to pending state with AppFuture: <AppFuture at 0x107a11100 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 16 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 15 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 15 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 16 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 16 set to pending state with AppFuture: <AppFuture at 0x107a11310 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 17 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 16 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 16 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 17 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 17 set to pending state with AppFuture: <AppFuture at 0x107a11520 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 18 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 17 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 17 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 18 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 18 set to pending state with AppFuture: <AppFuture at 0x107a11730 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 19 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 18 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 18 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 19 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 19 set to pending state with AppFuture: <AppFuture at 0x107a11940 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 19 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 19 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 7 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 9 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 10 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 12 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 11 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+INFO:parsl.dataflow.dflow:Task 14 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 17 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 16 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+INFO:parsl.dataflow.dflow:Task 13 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 19 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+ERROR:root:Attempt 2 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 2 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+ERROR:root:Attempt 3 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 3 failed for https://www.amazon.com: 503 Server Error: Service Unavailable for url: https://www.amazon.com/
+DEBUG:parsl.jobs.strategy:general strategy starting with strategy_type simple for 0 executors
+DEBUG:parsl.process_loggers:Normal ending for _general_strategy on thread JobStatusPoller-Timer-Thread-4422514640
+ERROR:root:Failed after 3 retries for https://www.reuters.com
+INFO:parsl.dataflow.dflow:Task 15 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+ERROR:root:Failed after 3 retries for https://www.amazon.com
+INFO:parsl.dataflow.dflow:Task 18 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
+INFO:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    dependency_resolver=None, 
+    executors=(ThreadPoolExecutor(
+        label='threads', 
+        max_threads=5, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    ),), 
+    exit_mode='cleanup', 
+    garbage_collect=True, 
+    initialize_logging=True, 
+    internal_tasks_max_threads=10, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    project_name=None, 
+    retries=0, 
+    retry_handler=None, 
+    run_dir='runinfo', 
+    std_autopath=None, 
+    strategy='simple', 
+    strategy_period=5, 
+    usage_tracking=0
+)
+INFO:parsl.dataflow.dflow:Parsl version: 2024.10.07
+DEBUG:parsl.usage_tracking.usage:Tracking level: 0
+INFO:parsl.dataflow.dflow:Run id is: f96d2d26-a427-4bfc-9cf0-944414528f7a
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/venv/lib/python3.12/site-packages/parsl/dataflow/dflow.py
+DEBUG:parsl.dataflow.dflow:Considering candidate for workflow name: /Users/munibahmed/Desktop/Parsl/Parallelized Web Scraping System/parsl_config.py
+DEBUG:parsl.dataflow.dflow:Using parsl_config.py as workflow name
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.jobs.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.dflow:Task 0 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 0 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 0 set to pending state with AppFuture: <AppFuture at 0x106cabc50 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 0 will not be memoized
+DEBUG:parsl.dataflow.dflow:Task 1 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Parsl task 0 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 1 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 1 set to pending state with AppFuture: <AppFuture at 0x106d4c0e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 2 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 1 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 1 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 2 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 2 set to pending state with AppFuture: <AppFuture at 0x106d4ca10 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 3 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 2 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 2 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 3 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 3 set to pending state with AppFuture: <AppFuture at 0x106d4c6e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 4 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.memoization:Task 3 will not be memoized
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Parsl task 3 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Task 4 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 4 set to pending state with AppFuture: <AppFuture at 0x106d4deb0 state=pending>
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 5 will be sent to executor threads
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.memoization:Task 4 will not be memoized
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Task 5 submitted for App parallel_parsl_scrape, not waiting on any dependency
+INFO:parsl.dataflow.dflow:Parsl task 4 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Task 5 set to pending state with AppFuture: <AppFuture at 0x106d4f260 state=pending>
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Task 6 will be sent to executor threads
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+DEBUG:parsl.dataflow.memoization:Task 5 will not be memoized
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Parsl task 5 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 6 set to pending state with AppFuture: <AppFuture at 0x106d4ff80 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 7 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 6 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 6 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 7 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 7 set to pending state with AppFuture: <AppFuture at 0x106d4f770 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 8 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 7 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 7 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 8 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 8 set to pending state with AppFuture: <AppFuture at 0x106d40500 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 9 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 8 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 8 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 9 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 9 set to pending state with AppFuture: <AppFuture at 0x106d406e0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 10 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 9 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 9 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 10 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 10 set to pending state with AppFuture: <AppFuture at 0x106d408c0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 11 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 10 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 10 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 11 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 11 set to pending state with AppFuture: <AppFuture at 0x106d40aa0 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 12 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 11 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 11 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 12 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 12 set to pending state with AppFuture: <AppFuture at 0x106d40c80 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 13 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 12 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 12 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 13 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 13 set to pending state with AppFuture: <AppFuture at 0x106d40e30 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 14 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 13 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 13 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 14 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 14 set to pending state with AppFuture: <AppFuture at 0x106d41040 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 15 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 14 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 14 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 15 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 15 set to pending state with AppFuture: <AppFuture at 0x106d41250 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 16 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 15 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 15 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 16 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 16 set to pending state with AppFuture: <AppFuture at 0x106d41460 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 17 will be sent to executor threads
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+DEBUG:parsl.dataflow.memoization:Task 16 will not be memoized
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 16 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 17 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+DEBUG:parsl.dataflow.dflow:Task 17 set to pending state with AppFuture: <AppFuture at 0x106d41670 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 18 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 17 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 17 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 18 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 18 set to pending state with AppFuture: <AppFuture at 0x106d41850 state=pending>
+DEBUG:parsl.dataflow.dflow:Task 19 will be sent to executor threads
+DEBUG:parsl.dataflow.memoization:Task 18 will not be memoized
+DEBUG:parsl.dataflow.dflow:Adding output dependencies
+INFO:parsl.dataflow.dflow:Parsl task 18 try 0 launched on executor threads
+DEBUG:parsl.dataflow.dflow:Added output dependencies
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathering dependencies
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+DEBUG:parsl.dataflow.dflow:Gathered dependencies
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 19 submitted for App parallel_parsl_scrape, not waiting on any dependency
+DEBUG:parsl.dataflow.dflow:Task 19 set to pending state with AppFuture: <AppFuture at 0x106d41a90 state=pending>
+DEBUG:parsl.dataflow.memoization:Task 19 will not be memoized
+INFO:parsl.dataflow.dflow:Parsl task 19 try 0 launched on executor threads
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+DEBUG:parsl.process_loggers:Normal ending for _launch_if_ready_async on thread Dependency-Launch_0
+INFO:parsl.dataflow.dflow:Task 1 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 1 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 0 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 0 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 3 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 3 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 2 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 2 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 5 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 5 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 4 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 4 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 6 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 6 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 8 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 8 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 7 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 7 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 9 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 9 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 11 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 11 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 12 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 12 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 10 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 10 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 13 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 13 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 13 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+INFO:parsl.dataflow.dflow:Task 14 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 14 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 14 will not be redirected.
+ERROR:root:Attempt 1 failed for https://www.amazon.com: 503 Server Error:  for url: https://www.amazon.com/
+INFO:parsl.dataflow.dflow:Task 17 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 17 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 16 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 16 will not be redirected.
+INFO:parsl.dataflow.dflow:Task 19 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 19 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 19 will not be redirected.
+ERROR:root:Attempt 2 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 2 failed for https://www.amazon.com: 503 Server Error:  for url: https://www.amazon.com/
+ERROR:root:Attempt 3 failed for https://www.reuters.com: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+ERROR:root:Attempt 3 failed for https://www.amazon.com: 503 Server Error:  for url: https://www.amazon.com/
+DEBUG:parsl.jobs.strategy:general strategy starting with strategy_type simple for 0 executors
+DEBUG:parsl.process_loggers:Normal ending for _general_strategy on thread JobStatusPoller-Timer-Thread-4363759264
+ERROR:root:Failed after 3 retries for https://www.reuters.com
+INFO:parsl.dataflow.dflow:Task 15 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 15 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 15 will not be redirected.
+ERROR:root:Failed after 3 retries for https://www.amazon.com
+INFO:parsl.dataflow.dflow:Task 18 completed (launched -> exec_done)
+INFO:parsl.dataflow.dflow:Standard out for task 18 will not be redirected.
+INFO:parsl.dataflow.dflow:Standard error for task 18 will not be redirected.
+WARNING:parsl.dataflow.dflow:Python is exiting with a DFK still running. You should call parsl.dfk().cleanup() before exiting to release any resources
